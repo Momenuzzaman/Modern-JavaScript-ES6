@@ -22,3 +22,12 @@ const give10 = () => 5;
 const result3 =  give10();
 console.log(result3);
 
+const doMath = (a, b) =>{
+    const sum = a + b;
+    const diff = a - b;
+    const result = sum * diff;
+    return result ;
+}
+
+const result4 =  doMath(20,10);
+console.log(result4);
