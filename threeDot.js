@@ -5,3 +5,7 @@ const allNumber = number.concat(number2).concat(number3);
 console.log(allNumber);
 const allNumber2 = [...number, ...number2, ...number3];
 console.log(allNumber2);
+
+const bigNumber = [20,30,40];
+const big = Math.max(...bigNumber);
+console.log(big);
