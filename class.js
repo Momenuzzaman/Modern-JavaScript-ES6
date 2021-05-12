@@ -5,7 +5,7 @@ class Student{
         this.School = "ABCD School";
     }
 }
-const student1 = new student( 1,"Al-Amin");
-const student2 = new student(2, "Ruhi");
+const student1 = new Student( 1,"Al-Amin");
+const student2 = new Student(2, "Ruhi");
 console.log(student1,student2);
 
