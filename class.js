@@ -1,4 +1,4 @@
-class student{
+class Student{
     constructor(sId, sName){
         this.id = sId;
         this.Name = sName;
